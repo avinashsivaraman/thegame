@@ -1,0 +1,152 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'chambericons';
+	src:url('../fonts/chambericons/chambericons.eot');
+	src:url('../fonts/chambericons/chambericons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/chambericons/chambericons.woff') format('woff'),
+		url('../fonts/chambericons/chambericons.ttf') format('truetype'),
+		url('../fonts/chambericons/chambericons.svg#chambericons') format('svg');
+}
+
+body {
+	color: #fff;
+	font-family: 'Lato', Arial, sans-serif;
+}
+
+a,
+a:focus {
+	outline: none;
+}
+
+.chamber-header {
+	position: relative;
+	margin: 0 auto;
+	max-width: 60%;
+	text-align: center;
+}
+
+.chamber-header a {
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	opacity: 0.7;
+}
+
+.chamber-header a:hover,
+.chamber-header a:focus {
+	opacity: 1;
+}
+
+.chamber-header h1 {
+	margin: 0;
+	font-weight: 300;
+	font-size: 2.625em;
+	line-height: 1.3;
+}
+
+.chamber-header h1 span {
+	display: block;
+	padding: 0.4em 1em 1em;
+	font-size: 60%;
+}
+
+.chamber-links {
+	margin: 0;
+}
+
+.chamber-links a {
+	display: inline-block;
+	margin: 0 0.6em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 75%;
+}
+
+.chamber-icon:before {
+	margin: 0 4px;
+	text-transform: none;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-family: 'chambericons';
+	line-height: 1;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+.chamber-icon-drop:before {
+	content: "\e001";
+}
+
+.chamber-icon-prev:before {
+	content: "\e004";
+}
+
+/* Demo Buttons Style */
+.chamber-demos {
+	padding: 2em 0 3em;
+}
+
+.chamber-demos a {
+	display: line-block;
+	margin: 0.5em;
+	padding: 0.7em 1.1em;
+	outline: none;
+	border: 3px solid rgba(0,0,0,0.3);
+	color: rgba(0,0,0,0.3);
+	text-decoration: none;
+	font-weight: 700;
+	opacity: 1;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.chamber-demos a:hover,
+.chamber-demos a.current-demo,
+.chamber-demos a.current-demo:hover,
+.chamber-demos a:focus {
+	border-color: #fff;
+	color: #fff;
+}
+
+/* Related demos */
+
+.chamber-related {
+	padding-bottom: 2em;
+	color: rgba(0,0,0,0.4);
+}
+
+.chamber-related a {
+	display: inline-block;
+	margin-top: 0.5em;
+}
+
+@media screen and (max-width: 30em) {
+	body {
+		font-size: 90%;
+	}
+}
+
+@media screen and (max-height: 29em) {
+	.container1 {
+		height: auto;
+	}
+	.chamber-header {
+		position: relative;
+		margin: 0 auto;
+		height: auto;
+		max-width: 100%;
+	}
+}
+.image_1
+{
+	float: left;
+	width: 15%;
+	height: 15%;
+	left: 219px;
+	position: relative;
+	bottom: -50px;
+
+}
